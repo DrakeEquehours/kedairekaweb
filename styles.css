@@ -1,0 +1,56 @@
+body {
+    width: auto;
+}
+
+.header{
+    display: inline-flex;
+}
+.logo {
+    margin: -10px -10px 10px -10px;
+}
+.header .primary-menu h5{
+    display: inline-flex;
+}
+.header .primary-menu {
+    margin: 0 0 0 350px;
+    padding: 20px;
+    align-items: flex-start;
+}
+.primary-menu .link-menu {
+    margin: 25px;
+    color: black
+}
+.primary-menu .link-menu:hover{
+    color: rgb(131, 101, 247)
+}
+.landing {
+    width: 100%;
+    height: 600px;
+    background-color: aliceblue;
+}
+.landing-text-kabupaten{
+    color: rgb(108, 84, 232);
+    margin-left: 10px;
+}
+.landing-text{
+    text-align: center;
+    display: inline-flex;
+    margin: 30px 30% 0 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.landing-text h2{
+    font-weight: 800;
+}
+.landing-news {
+    content: "";
+    display: table;
+    clear: both;
+}
+.landing-content{
+    float: left;
+    width: 33.33%;  
+}
+.landing-content h3{
+    text-align: center;
+}
